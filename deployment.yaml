@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: encuestapp
+  labels:
+    app: encuestapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: encuestapp
+  template:
+    metadata:
+      labels:
+        app: encuestapp
+    spec:
+      containers:
+        - name: encuestapp
+          image: 127.0.0.1:82/encuestapp-prueba/encuestapp:latest # ← Jenkins lo reemplaza
+          ports:
+            - containerPort: 80
