@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: 127.0.0.1:82/encuestapp-prueba/encuestapp:latest # ← Jenkins lo reemplaza
+          image: 127.0.0.1:82/encuestapp-prueba/encuestapp:a6ae4f7
           ports:
             - containerPort: 80
