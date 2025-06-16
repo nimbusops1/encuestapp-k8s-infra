@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: 127.0.0.1:82/encuestapp-prueba/encuestapp:13ee1a9
+          image: 192.168.58.1:82/encuestapp-prueba/encuestapp:13ee1a9
           ports:
             - containerPort: 80
