@@ -1,6 +1,7 @@
 # overlays/prod/kustomization.yaml
 resources:
   - ../../base
+  - ../../base
   #- hpa.yaml
   #- networkpolicy.yaml
   #- pdb.yaml
