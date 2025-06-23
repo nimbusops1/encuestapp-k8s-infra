@@ -5,6 +5,8 @@ metadata:
 spec:
   template:
     spec:
+      imagePullSecrets:
+        - name: harbor-pull-argocd
       containers:
         - name: encuestapp
           image: 192.168.49.1/encuestapp-prueba/encuestapp:dev-d9459ad
