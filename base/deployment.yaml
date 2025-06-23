@@ -14,6 +14,8 @@ spec:
       labels:
         app: encuestapp
     spec:
+      imagePullSecrets:
+        - name: harbor-pull-argocd
       containers:
         - name: encuestapp
           image: 192.168.49.1/encuestapp-prueba/encuestapp:REPLACEME
