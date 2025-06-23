@@ -1,0 +1,6 @@
+# overlays/dev/kustomization.yaml
+resources:
+  - ../../base
+
+patchesStrategicMerge:
+  - patch-deployment.yaml

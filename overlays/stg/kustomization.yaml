@@ -1,0 +1,10 @@
+# overlays/prod/kustomization.yaml
+resources:
+  - ../../base
+  #- hpa.yaml
+  #- networkpolicy.yaml
+  #- pdb.yaml
+
+patchesStrategicMerge:
+  - patch-deployment.yaml
+

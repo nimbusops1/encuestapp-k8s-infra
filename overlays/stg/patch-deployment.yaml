@@ -1,0 +1,11 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: encuestapp
+spec:
+  template:
+    spec:
+      containers:
+        - name: encuestapp
+          image: 192.168.49.1/encuestapp-prueba/encuestapp:REPLACEME
+

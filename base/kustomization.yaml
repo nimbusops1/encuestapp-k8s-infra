@@ -1,0 +1,4 @@
+# infra/base/kustomization.yaml
+resources:
+  - deployment.yaml
+  - service.yaml

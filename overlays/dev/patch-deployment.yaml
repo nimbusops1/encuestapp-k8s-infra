@@ -2,20 +2,10 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: encuestapp
-  labels:
-    app: encuestapp
 spec:
-  replicas: 1
-  selector:
-    matchLabels:
-      app: encuestapp
   template:
-    metadata:
-      labels:
-        app: encuestapp
     spec:
       containers:
         - name: encuestapp
           image: 192.168.49.1/encuestapp-prueba/encuestapp:REPLACEME
-          ports:
-            - containerPort: 80
+
