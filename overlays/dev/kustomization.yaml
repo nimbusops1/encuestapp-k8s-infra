@@ -1,4 +1,6 @@
 # overlays/dev/kustomization.yaml
+namespace: ambiente-dev-encuestapp
+
 resources:
   - ../../base
 
