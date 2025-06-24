@@ -1,5 +1,5 @@
 # overlays/prod/kustomization.yaml
-namespace: ambiente-stg-encuestapp
+namespace: ambiente-staging-encuestapp
 resources:
   - ../../base
   #- hpa.yaml
