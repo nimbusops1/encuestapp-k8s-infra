@@ -7,5 +7,5 @@ spec:
     spec:
       containers:
         - name: encuestapp
-          image: 192.168.49.1/encuestapp-prueba/encuestapp:dev-d9459ad
+          image: null:dev-26063f6
 
